@@ -1,5 +1,6 @@
 import "./App.css";
 import { Box } from "./components/Box";
+import { Categorias } from "./components/Categorias";
 import { Pagode } from "./components/Pagode";
 import { Pergunta } from "./components/Pergunta";
 
@@ -12,7 +13,8 @@ function App() {
       <Pergunta />
       <Pergunta />
       <Box nome={"Arlindo Cruz"} idade={22} verify={false} /> */}
-      <Pagode />
+      {/* <Pagode /> */}
+      <Categorias />
     </div>
   );
 }
